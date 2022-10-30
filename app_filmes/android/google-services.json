@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1054380810214",
+    "firebase_url": "https://projeto-app-filmes-default-rtdb.firebaseio.com",
+    "project_id": "projeto-app-filmes",
+    "storage_bucket": "projeto-app-filmes.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1054380810214:android:aacea2202a3a76272e8027",
+        "android_client_info": {
+          "package_name": "br.com.academiadoflutter.app_filmes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1054380810214-dbtnr196vs8ioadfghcubghjn7eiee18.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.com.academiadoflutter.app_filmes",
+            "certificate_hash": "e8263da916636e15f46cad4bca3aac1912d2b085"
+          }
+        },
+        {
+          "client_id": "1054380810214-5l2dhp4b0km648c19nssl9ijj08d928f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBtM6SN-dgl2Cp88ZizfSSFI0-75tPgkA0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1054380810214-5l2dhp4b0km648c19nssl9ijj08d928f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
