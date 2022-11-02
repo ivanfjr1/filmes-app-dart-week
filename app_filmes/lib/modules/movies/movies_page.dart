@@ -12,11 +12,17 @@ class MoviesPage extends GetView<MoviesController> {
   Widget build(BuildContext context) {
     return SizedBox(
       width: Get.width,
-      child: ListView(children: const [
-        MoviesHeader(),
-        MoviesFilters(),
-        MoviesGroup(title: 'Mais populares'),
-        MoviesGroup(title: 'Top filmes'),
+      child: ListView(children: [
+        const MoviesHeader(),
+        const MoviesFilters(),
+        MoviesGroup(
+          title: 'Mais populares',
+          movies: controller.popularMovies,
+        ),
+        MoviesGroup(
+          title: 'Top filmes',
+          movies: controller.topRatedMovies,
+        ),
       ]),
     );
   }
