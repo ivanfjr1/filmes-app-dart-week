@@ -37,6 +37,8 @@ dependencies:
   firebase_auth: ^4.0.2
   firebase_remote_config: ^3.0.2
 
+  cloud_firestore: ^4.0.5
+
   flutter_signin_button: ^2.0.0
 
   google_sign_in: ^5.4.2
